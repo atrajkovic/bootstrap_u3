@@ -1,0 +1,90 @@
+nav{
+    background-color: #c5f5bf;
+}
+
+.logo-nav-bar{
+    height: 90px;
+    margin-left: 40px;
+}
+
+nav div ul{
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.nav-link{
+    color: #111;
+    transition: all .35s;
+    margin: 0 20px;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+    color: #111;
+    text-decoration: underline green;
+}
+
+.navbar-toggler{
+    margin-right: 5%;
+}
+
+#compromiso{
+    background-color: #fff;
+    padding: 0;
+}
+.izq-compromiso{
+    background-color: #198754;
+    padding: 20px 40px;
+    color: #fff;
+}
+
+.fila-car{
+    padding: 0;
+}
+
+.carousel-inner{
+    width: 100%;
+}
+
+.carousel-indicators, .carousel-control-prev span, .carousel-control-next span{
+    background-color: #198754;
+}
+
+#productos{
+    background-color: #111;
+    width: 100%;
+    padding: 20px 10%;
+    margin: 0 auto;
+}
+
+#productos h3{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin: 10px 0 50px;
+}
+
+#productos .row div{
+    margin-bottom: 15px;
+}
+
+.card-producto{
+    max-width: 90%;
+    border: 2px solid #c5f5bf;
+}
+
+.card-producto img{
+    border-bottom: 1px solid #ccc;
+}
+
+.card-producto .btn-disabled{
+    background-color: #ccc;
+}
+
+#contacto{
+    padding: 35px 0;
+}
+
+#contacto h3{
+    text-align: center;
+}

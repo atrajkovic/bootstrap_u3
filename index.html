@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RebolsARG | Inicio</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+
+</head>
+<body>
+    <div class="">
+        <nav class="navbar navbar-expand-lg navbar-light">
+        <a class= "navbar-brand" href="index.html"><img class="logo-nav-bar" src="images/logo-rebolsarg.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:myscroll('compromiso');">Compromiso</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:myscroll('productos');">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:myscroll('contacto');">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+    </div>
+
+    <div class="row" id="compromiso">
+        <div class="col-lg-6 col-md-12 izq-compromiso">
+            <h1>RebolsARG</h1>
+            <h4>Comprometidos con el ambiente</h4>
+            <br>
+            <h6>Somos una empresa dedicada a la producción y comercialización de bolsas hechas con material 100% reciclado y proveniente basura extraída de las costas y océanos</h6>
+            <h6>Cada bolsa que fabricamos, no solo contribuye a quitar del océano 1 kilogramo de basura sino que también permite su reutilización evitando así el uso de bolsas contaminantes</h6>
+        </div>
+        <div class="col-lg-6 col-md-12 fila-car">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="images/carousel-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="images/carousel-2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="images/carousel-3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+        </div>
+    </div>
+    <div id="productos">
+        <h3>NUESTROS PRODUCTOS</h3>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-12 justify-content-center d-flex">
+                <div class="card card-producto">
+                    <img src="images/bolsa-s.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bolsas S (25x30)</h5>
+                        <p class="card-text">Bolsitas de tela reciclada de 25cm x 30cm. Reutilizables e ideales para uso diario en transporte de pequeños envases.</p>
+                        <a href="#contacto" class="btn btn-success">Comprame!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 justify-content-center d-flex ">
+                <div class="card card-producto">
+                    <img src="images/bolsa-l-png.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bolsas L (45x60)</h5>
+                        <p class="card-text">Bolsitas de tela reciclada de 45cm x 60cm. Reutilizables. Ideales para todo! Entra lo que quieras!</p>
+                        <a href="#contacto" class="btn btn-success">Comprame!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 justify-content-center d-flex">
+                <div class="card card-producto">
+                    <img src="images/bolsa-empresa.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bolsas Empresariales</h5>
+                        <p class="card-text">Estamos preparando bolsas personalizadas para empresas con tu logo. 100% eco-friendly para que todos lleven su almuerzo allí!</p>
+                        <a class="btn btn-disabled">Comprame!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contacto">
+    <div class="container">
+        <h3>¡Contactanos!</h3>
+        <form>
+            <div class="mb-3">
+                <label for="nombreInput" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombreInput" aria-describedby="nombreHelp">
+                <div id="nombreHelp" class="form-text">Es para poder llamarte por tu nombre😊</div>
+            </div>
+            <div class="mb-3">
+                <label for="inputMail" class="form-label">E-Mail</label>
+                <input type="email" class="form-control" id="inputMail">
+                <div id="mailHelp" class="form-text">Tranquil@. No te vamos a llenar la casilla de publicidades! (A menos que así lo desees)</div>
+            </div>
+            <div class="mb-3 form-check">
+                <label class="form-check-label" for="exampleCheck1">Así lo deseo. Enviarme ofertas por e-mail</label>
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            </div>
+            <div class="mb-3">
+                <label for="inputText" class="form-label">Contanos... ¿En qué podemos ayudarte?</label>
+                <textarea class="form-control" id="inputText"></textarea>
+            </div>
+            <input type="submit" id="enviar" class="btn btn-success" value="Enviar" post="">
+        </form>
+    </div>
+    </div>
+
+
+    <div class="hola"></div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+</html>
